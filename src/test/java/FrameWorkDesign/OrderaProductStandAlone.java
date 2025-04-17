@@ -17,6 +17,7 @@ import org.testng.Assert;
 public class OrderaProductStandAlone {
 
 	public static void main(String[] args) {
+//standalonetest updated
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
